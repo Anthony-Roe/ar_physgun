@@ -29,13 +29,11 @@ Citizen.CreateThread(function() -- Handles all of the controls
                 end
                 if (IsDisabledControlPressed(0, 16)) then -- Scroll Down
                     if (cur_ent ~= nil) then
-                        print("scrolling")
                         cur_ent.Scroll(-1 * scrollMod)
                     end
                 end
                 if (IsDisabledControlPressed(0, 17)) then -- Scroll Up
                     if (cur_ent ~= nil) then
-                        print("scrolling")
                         cur_ent.Scroll(scrollMod)
                     end
                 end
